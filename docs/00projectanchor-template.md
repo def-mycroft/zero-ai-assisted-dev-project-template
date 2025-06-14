@@ -4,6 +4,7 @@
 
 #process-notes
 
+[[zero/999-chaotic/cool-jacket/CONTENTS|CONTENTS]]
 
 ***
 
