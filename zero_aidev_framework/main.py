@@ -51,7 +51,10 @@ def duplicate_project(target_dir: Path, package_name: str) -> Path:
 
     cli_link = target_dir / 'cli.py'
     if cli_link.exists():
-        cli_link.unlink()
+        if cli_link.is_symlink() or cli_link.is_file():
+            cli_link.unlink()
+        elif cli_link.is_dir():
+            shutil.rmtree(cli_link)
     cli_link.symlink_to(Path(package_name) / 'cli.py')
 
     return target_dir
