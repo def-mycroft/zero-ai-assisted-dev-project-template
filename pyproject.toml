@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "test-project"
 version = "0.1.0"
 authors = [{name = "Project Name", email = "example@example.com"}]
-description = "Project Descriptoin"
+description = "Project Description"
 readme = "README.md"
 requires-python = ">=3.8"
 dependencies = [
