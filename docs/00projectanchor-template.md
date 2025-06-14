@@ -1,6 +1,7 @@
 # 00 Project Action Anchor
 
 
+
 #process-notes
 
 
@@ -16,6 +17,13 @@
 
 _Date: YYYY-MM-DD_
 
+## Log 
+
+xxx 
+
+## Checklist
+
+%% REGION %% 
 - [ ] **Write the Prompt**  
   _What does this code need to do?_  
   `...describe the target behavior, interface, or bug...`
@@ -35,6 +43,7 @@ _Date: YYYY-MM-DD_
 - [ ] **Return Point**  
   _Where do I pick up next?_  
   `Next step is to... / Pending: ... / Waiting on: ...`
+%% ENDREGION %%
 
 ```
 %% ENDREGION %%
@@ -45,17 +54,18 @@ _Date: YYYY-MM-DD_
 # 🧠 Anchor: Implement CLI – able-presence b3a98a32
 
 2025-06-14 12:35:45 -0600 - able-presence b3a98a32
-add cli tool 
+add cli, installable, and have toc generator 
 
-- [ ] **Write the Prompt**  
+
+- [x] **Write the Prompt**  
   _What does this code need to do?_  
   `...describe the target behavior, interface, or bug...`
 
-- [ ] **Log the Prompt to `docs/`**  
+- [x] **Log the Prompt to `docs/`**  
   _Where is the long-term context?_  
   `promptX_name.md` → codename: `[codename hash]`
 
-- [ ] **Describe the Purpose**  
+- [x] **Describe the Purpose**  
   _Why am I doing this?_  
   `One sentence: This enables/clarifies/supports...`
 
