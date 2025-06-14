@@ -13,7 +13,7 @@
 %% REGION %% 
 ```copyme
 
-# 🧠 Anchor: xxx – [description]
+# 🧠 Anchor: xxx – [description] (0/5)
 
 _Date: YYYY-MM-DD_
 
