@@ -1,6 +1,9 @@
 import argparse
+from pathlib import Path
+
 from zero_aidev_framework import docs_tools
 from zero_aidev_framework.docs_tools import new_doc as create_new_doc
+from zero_aidev_framework.main import duplicate_project
 
 
 def main(argv=None):
@@ -39,9 +42,9 @@ def main(argv=None):
 
     if args.command == "newproject":
         if args.new:
-            # new project
-            # import code from zero_aidev_framework.main to duplicate this
-            0
+            if not args.filepath or not args.project_name:
+                parser.error("--filepath and --project-name required with --new")
+            duplicate_project(Path(args.filepath), args.project_name)
     elif args.command == "dev":
         if args.update_toc:
             docs_tools.update_toc()
