@@ -3,7 +3,6 @@ m
 notebooks/*png
 main.py
 d
-cli.py
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

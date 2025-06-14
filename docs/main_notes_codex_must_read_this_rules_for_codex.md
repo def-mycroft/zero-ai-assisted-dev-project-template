@@ -32,5 +32,5 @@ if you see something here that uses the phrase "for codex", it is probably meant
 
 ## follow the wiki article creation article 
 
-be esp sure to follow instructions here: [[zero/999-chaotic/zero-liftsim-docs/wiki_article_creation_for_codex|wiki_article_creation_for_codex]]
+be esp sure to follow instructions here: [[zero/999-chaotic/zero-ai-dev-framework-docs/wiki_article_creation_for_codex|wiki_article_creation_for_codex]]
 

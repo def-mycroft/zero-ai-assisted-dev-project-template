@@ -7,7 +7,10 @@ except ModuleNotFoundError:  # pragma: no cover - fallback for environments with
         return value[:8]
 from uuid import uuid4 as uuid
 from pathlib import Path
-import pandas as pd
+try:  # Optional dependency
+    import pandas as pd  # type: ignore
+except ModuleNotFoundError:  # pragma: no cover - fallback if pandas missing
+    pd = None  # type: ignore
 import inspect
 
 from typing import Any, Callable, Dict

@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "test-project"
+name = "zero-ai-dev-framework"
 version = "0.1.0"
 authors = [{name = "Project Name", email = "example@example.com"}]
 description = "Project Description"
@@ -19,8 +19,7 @@ dependencies = [
 ]
 
 [project.scripts]
-#zero-liftsim = "zero_liftsim.cli:main"
-zero-liftsim = "package_name.cli:main"
+zero-ai-dev-framework = "zero_aidev_framework.cli:main"
 
 [tool.setuptools.packages.find]
-include = ["package_name"]
+include = ["zero_aidev_framework"]
