@@ -1,7 +1,6 @@
 # Table of Contents
 
 ## Main Notes
-- [00 Project Action Anchor](00projectanchor-liftsim.md)
 - [00 Project Action Anchor](00projectanchor-template.md)
 - [How to Add Wiki Articles](main_notes_adding_wiki_articles.md)
 - [As a Human: How to Code with Codex](main_notes_as_a_human_how_to_code_with_codex.md)
@@ -16,4 +15,5 @@
 - [Wiki Article Creation Instructions for Codex](main_notes_wiki_article_creation_for_codex.md)
 
 ## Articles
+- [🧠 Anchor: Implement CLI – able-presence b3a98a32](next-condition 0c44bdae.md)
 - [prompt0 Implement CLI frequent-heart 9190f354](prompt0-frequent-heart-9190f354.md)

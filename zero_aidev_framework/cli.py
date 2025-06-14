@@ -1,5 +1,6 @@
 import argparse
 from zero_aidev_framework import docs_tools
+from zero_aidev_framework.docs_tools import new_doc as create_new_doc
 
 
 def main(argv=None):
@@ -18,12 +19,21 @@ def main(argv=None):
         action="store_true",
         help="Regenerate docs/CONTENTS.md"
     )
+    dev_parser.add_argument(
+        "--new-doc",
+        action="store_true",
+        help="create blank doc in docs/"
+    )
 
     args = parser.parse_args(argv)
 
     if args.command == "dev":
         if args.update_toc:
             docs_tools.update_toc()
+        elif args.new_doc:
+            path = create_new_doc()
+            print(path)
+
     else:
         parser.print_help()
 

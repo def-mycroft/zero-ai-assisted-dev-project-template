@@ -50,22 +50,27 @@ xxx
 
 
 
+# 🧠 Anchor: xxx – [description] (0/5)
 
-# 🧠 Anchor: Implement CLI – able-presence b3a98a32
-
-2025-06-14 12:35:45 -0600 - able-presence b3a98a32
-add cli, installable, and have toc generator 
+2025-06-14 13:36:11 -0600 
 
 
-- [x] **Write the Prompt**  
+## Log 
+
+xxx 
+
+## Checklist
+
+%% REGION %% 
+- [ ] **Write the Prompt**  
   _What does this code need to do?_  
   `...describe the target behavior, interface, or bug...`
 
-- [x] **Log the Prompt to `docs/`**  
+- [ ] **Log the Prompt to `docs/`**  
   _Where is the long-term context?_  
   `promptX_name.md` → codename: `[codename hash]`
 
-- [x] **Describe the Purpose**  
+- [ ] **Describe the Purpose**  
   _Why am I doing this?_  
   `One sentence: This enables/clarifies/supports...`
 
@@ -76,5 +81,12 @@ add cli, installable, and have toc generator
 - [ ] **Return Point**  
   _Where do I pick up next?_  
   `Next step is to... / Pending: ... / Waiting on: ...`
+%% ENDREGION %%
+
+
+# 🧠 Anchor: Implement CLI – able-presence b3a98a32
+
+[[next-condition 0c44bdae]]
+
 
 ***
