@@ -2,7 +2,7 @@
 cli.py
 m
 notebooks/*png
-main.py
+/main.py
 d
 
 # Byte-compiled / optimized / DLL files
