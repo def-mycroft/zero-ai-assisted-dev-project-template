@@ -15,6 +15,7 @@
 - [Wiki Article Creation Instructions for Codex](main_notes_wiki_article_creation_for_codex.md)
 
 ## Prompt Articles
+- [prompt2 - bugfix apathetic-fall 6ad38cd4](prompt2-apathetic-fall-6ad38cd4.md)
 - [prompt1 - generate instance for new project](prompt1-normal-associate-763211a8.md)
 - [prompt0 Implement CLI frequent-heart 9190f354](prompt0_frequent_heart_9190f354.md)
 
