@@ -50,27 +50,32 @@ xxx
 
 
 
-# 🧠 Anchor: xxx – [description] (0/5)
 
-2025-06-14 13:36:11 -0600 
+***
+
+
+# 🧠 Anchor: xxx – [description] (4/5)
+
+2025-06-14 14:07:18 -0600
+generate new project starting point from this repo 
+[[prompt1-normal-associate-763211a8]]
 
 
 ## Log 
 
-xxx 
-
+2025-06-14 14:08:05 -0600
 ## Checklist
 
 %% REGION %% 
-- [ ] **Write the Prompt**  
+- [x] **Write the Prompt**  
   _What does this code need to do?_  
   `...describe the target behavior, interface, or bug...`
 
-- [ ] **Log the Prompt to `docs/`**  
+- [x] **Log the Prompt to `docs/`**  
   _Where is the long-term context?_  
   `promptX_name.md` → codename: `[codename hash]`
 
-- [ ] **Describe the Purpose**  
+- [x] **Describe the Purpose**  
   _Why am I doing this?_  
   `One sentence: This enables/clarifies/supports...`
 
@@ -83,10 +88,6 @@ xxx
   `Next step is to... / Pending: ... / Waiting on: ...`
 %% ENDREGION %%
 
-
-# 🧠 Anchor: Implement CLI – able-presence b3a98a32
-
-[[next-condition 0c44bdae]]
 
 
 ***

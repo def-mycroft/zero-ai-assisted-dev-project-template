@@ -14,6 +14,9 @@
 - [Styleguide for Wiki Articles](main_notes_styleguide_wiki_articles.md)
 - [Wiki Article Creation Instructions for Codex](main_notes_wiki_article_creation_for_codex.md)
 
+## Prompt Articles
+- [prompt1 - generate instance for new project](prompt1-normal-associate-763211a8.md)
+- [prompt0 Implement CLI frequent-heart 9190f354](prompt0_frequent_heart_9190f354.md)
+
 ## Articles
-- [🧠 Anchor: Implement CLI – able-presence b3a98a32](next-condition 0c44bdae.md)
-- [prompt0 Implement CLI frequent-heart 9190f354](prompt0-frequent-heart-9190f354.md)
+- [unnamed worthless-vacation 782e571a](unnamed-worthless-vacation-782e571a.md)
